@@ -6351,14 +6351,14 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="ID" value="Amphenol C707 10M006 5002"/>
 </part>
 <part name="U$4" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="R3" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="12 kΩ">
+<part name="R3" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="12K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="IC1" library="freetronics-luke" deviceset="RT8289" device="">
 <attribute name="PACKAGE" value="8-SOIC-T"/>
 </part>
 <part name="U$102" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="R1" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="27 kΩ">
+<part name="R1" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="27K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$104" library="freetronics-luke" deviceset="GND" device=""/>
@@ -6373,7 +6373,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$137" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+4.1V" device="" value="+4.0V"/>
 <part name="U$11" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="L1" library="freetronics-jon" deviceset="CDRH6D38" device="SMT" value="10µH">
+<part name="L1" library="freetronics-jon" deviceset="CDRH6D38" device="SMT" value="10uH">
 <attribute name="ID" value="CDRH6D38NP-100NC"/>
 </part>
 <part name="J2" library="con-coax" deviceset="SMA-" device="142-0701-881/886" value="Antenna">
@@ -6381,25 +6381,25 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="U$23" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$29" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="10µF">
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="10uF">
 <attribute name="PACKAGE" value="1206"/>
 <attribute name="VOLTAGE" value="35V"/>
 </part>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="47µF">
+<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="47uF">
 <attribute name="PACKAGE" value="1206"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="47µF">
+<part name="C4" library="rcl" deviceset="C-EU" device="C1206" value="47uF">
 <attribute name="PACKAGE" value="1206"/>
 <attribute name="VOLTAGE" value="10V"/>
 </part>
-<part name="R9" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22Ω">
+<part name="R9" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R10" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22Ω">
+<part name="R10" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R8" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22Ω">
+<part name="R8" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="LED2" library="freetronics-master-v1" deviceset="LED" device="0603" value="Network">
@@ -6410,24 +6410,24 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="COLOR" value="Yellow"/>
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R16" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1kΩ">
+<part name="R16" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R15" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1kΩ">
+<part name="R15" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="C8" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$30" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="R12" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="100kΩ">
+<part name="R12" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="100K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="Q3" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002">
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
 <part name="U$63" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="R11" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10Ω">
+<part name="R11" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$66" library="freetronics-luke" deviceset="GND" device=""/>
@@ -6498,16 +6498,16 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$80" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="C21" library="freetronics-master-v1" deviceset="CAP" device="0402" value="NP">
+<part name="C21" library="freetronics-master-v1" deviceset="CAP" device="0402" value="NOT PLACED">
 <attribute name="PACKAGE" value="0402"/>
 </part>
-<part name="R13" library="freetronics-master-v1" deviceset="RESISTOR" device="0402" value="0Ω">
+<part name="R13" library="freetronics-master-v1" deviceset="RESISTOR" device="0402" value="0R">
 <attribute name="PACKAGE" value="0402"/>
 </part>
-<part name="C22" library="freetronics-master-v1" deviceset="CAP" device="0402" value="NP">
+<part name="C22" library="freetronics-master-v1" deviceset="CAP" device="0402" value="NOT PLACED">
 <attribute name="PACKAGE" value="0402"/>
 </part>
-<part name="R14" library="freetronics-master-v1" deviceset="RESISTOR" device="0402" value="0Ω">
+<part name="R14" library="freetronics-master-v1" deviceset="RESISTOR" device="0402" value="0R">
 <attribute name="PACKAGE" value="0402"/>
 </part>
 <part name="U$31" library="freetronics-luke" deviceset="GND" device=""/>
@@ -6519,16 +6519,16 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
 <part name="U$2" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="R19" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="100kΩ">
+<part name="R19" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="100K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R20" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="100kΩ">
+<part name="R20" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="100K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R18" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10Ω">
+<part name="R18" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R17" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10Ω">
+<part name="R17" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="+4.1V" device="" value="+4.0V"/>
@@ -6540,7 +6540,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="U$3" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+4.1V" device="" value="+4.0V"/>
-<part name="R2" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1kΩ">
+<part name="R2" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="LED1" library="freetronics-master-v1" deviceset="LED" device="0603" value="Power">
@@ -6554,20 +6554,20 @@ Source: AVX .. aphvc.pdf</description>
 <part name="Q2" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002">
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
-<part name="R7" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10kΩ">
+<part name="R7" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R6" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10kΩ">
+<part name="R6" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$5" library="freetronics-luke" deviceset="+5V" device=""/>
 <part name="Q1" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002">
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
-<part name="R5" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10kΩ">
+<part name="R5" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R4" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10kΩ">
+<part name="R4" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$6" library="freetronics-luke" deviceset="+5V" device=""/>
@@ -6584,12 +6584,12 @@ Source: AVX .. aphvc.pdf</description>
 <sheet>
 <plain>
 <text x="142.24" y="213.36" size="2.794" layer="94">Freetronics GSM Modem Shield</text>
-<text x="215.9" y="207.518" size="1.778" layer="94">V0.1 (2013-10-24)</text>
-<text x="182.626" y="207.518" size="1.778" layer="94">www.freetronics.com</text>
+<text x="215.9" y="207.518" size="1.778" layer="94">V1.0 (2013-10-24)</text>
+<text x="167.386" y="207.518" size="1.778" layer="94">www.freetronics.com/gsmshield</text>
 <text x="142.24" y="207.518" size="1.778" layer="94">SKU: GSMSHIELD</text>
 <frame x1="0" y1="200.66" x2="248.92" y2="386.08" columns="8" rows="5" layer="94"/>
 <frame x1="139.7" y1="205.74" x2="243.84" y2="218.44" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="139.7" y1="205.74" x2="177.8" y2="210.82" columns="8" rows="5" layer="94"/>
+<frame x1="139.7" y1="205.74" x2="165.1" y2="210.82" columns="8" rows="5" layer="94"/>
 <frame x1="213.36" y1="205.74" x2="243.84" y2="210.82" columns="8" rows="5" layer="94"/>
 <wire x1="7.62" y1="325.12" x2="124.46" y2="325.12" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="124.46" y1="325.12" x2="124.46" y2="205.74" width="0.1524" layer="98" style="shortdash"/>
@@ -6628,17 +6628,17 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="162.56" y1="22.86" x2="162.56" y2="81.28" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="162.56" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="98" style="shortdash"/>
 <text x="142.24" y="12.7" size="2.794" layer="94">Freetronics GSM Modem Shield</text>
-<text x="215.9" y="6.858" size="1.778" layer="94">V0.1 (2013-10-24)</text>
-<text x="182.626" y="6.858" size="1.778" layer="94">www.freetronics.com</text>
 <text x="142.24" y="6.858" size="1.778" layer="94">SKU: GSMSHIELD</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <frame x1="139.7" y1="5.08" x2="243.84" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="139.7" y1="5.08" x2="177.8" y2="10.16" columns="8" rows="5" layer="94"/>
-<frame x1="213.36" y1="5.08" x2="243.84" y2="10.16" columns="8" rows="5" layer="94"/>
 <wire x1="93.98" y1="144.78" x2="175.26" y2="144.78" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="175.26" y1="144.78" x2="175.26" y2="106.68" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="175.26" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="98" style="shortdash"/>
 <wire x1="93.98" y1="106.68" x2="93.98" y2="144.78" width="0.1524" layer="98" style="shortdash"/>
+<text x="215.9" y="6.858" size="1.778" layer="94">V1.0 (2013-10-24)</text>
+<text x="167.386" y="6.858" size="1.778" layer="94">www.freetronics.com/gsmshield</text>
+<frame x1="139.7" y1="5.08" x2="165.1" y2="10.16" columns="8" rows="5" layer="94"/>
+<frame x1="213.36" y1="5.08" x2="243.84" y2="10.16" columns="8" rows="5" layer="94"/>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="69.85" y="278.13" smashed="yes" rot="R90">
