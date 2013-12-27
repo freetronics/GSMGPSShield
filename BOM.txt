@@ -1,0 +1,84 @@
+
+B1	Memory Protection Devices BK-868 SMD CR1632 coin cell holder (Digi-Key BK-868-ND)
+NOTE: A CR1632 3V lithium coin cell also needs to be supplied and mounted in the socket.
+
+S1	4UCON 18899 4-pole audio jack, same as Freetronics ArduPhone
+Z1	Littelfuse PGB102ST23WR dual TVS diode, 3-SOT23 package. (Digi-Key F2596CT-ND)
+
+IC3	SIMCom SIM908 GPRS/GPS Module
+
+NOTE: Antenna pigtails with appropriate RF connectors are required to connect to both the GSM and GPS antenna ports on the SIM908 module.
+
+L1	Sumida CDRH6D38NP-100NC 10uH SMD inductor (Digi-Key 308-1541-1-ND) - same footprint as EtherMega inductor
+
+IC1	Richtek RT8289GSP buck converter, 8-SOIC SMD with exposed pad (Digi-Key 1028-1046-1-ND)
+IC2	SIM card socket, Amphenol "C707 10M0065 002" 6-pin SIM socket (Digi-Key 361-1020-1-ND)
+
+NOTE: User also needs to supply SIM card, of course.
+
+D1	SMF05CT1G 5-way ESD supressor array, SC70-6 package (Digi-Key SMF05CT1GOSCT-ND)
+D2	B340A-13-F schottky diode, SMA package (Digi-Key B340A-FDICT-ND)
+D3	NSR0340HT1G schottky diode, SOD323 package (Digi-Key NSR0340HT1GOSCT-ND)
+
+J5	Arduino Shield Headers (2 x 8-pin, 1 x 10-pin, 1 x 6-pin) - placement optional
+J2	14-pin 0.1" pin header (NOT PLACED)
+J3	8-pin 0.1" pin header (NOT PLACED)
+
+LED1	Blue LED, 0603 SMD
+LED2	Green LED, 0603 SMD
+LED3	Yellow LED, 0603 SMD
+
+Q1	2N7002 3-SOT23
+Q2	2N7002 3-SOT23
+Q3	2N7002 3-SOT23
+Q4	2N7002 3-SOT23
+Q5	2N7002 3-SOT23
+Q6	2N7002 3-SOT23
+Q7	2N7002 3-SOT23
+
+R1	22R 0603 SMD
+R2	22R 0603 SMD
+R3	51k 1% 0603 SMD
+R4	1k 0603 SMD
+R5	22R 0603 SMD
+R6	22k 1% 0603 SMD
+R7	10R 0603 SMD
+R8	100k 0603 SMD
+R9	10k 0603 SMD
+R10	0R 0603 SMD
+R11	0R 0603 SMD
+R12	10k 0603 SMD
+R13	10k 0603 SMD
+R14	10R 0603 SMD
+R15	68R 0603 SMD
+R16	10k 0603 SMD
+R17	10k 0603 SMD
+R18	10k 0603 SMD
+R19	10k 0603 SMD
+R20	1k 0603 SMD
+R21	1k 0603 SMD
+R22	10R 0603 SMD
+R23	10k 0603 SMD
+R24	10k 0603 SMD
+R25	10R 0603 SMD
+R26	100k 0603 SMD
+R27	100k 0603 SMD
+
+C1	10nF 50V 0603 SMD ceramic
+C2	10uF 35V 1206 SMD ceramic
+C3	47uF 10V 1206 SMD ceramic
+C4	47uF 10V 1206 SMD ceramic
+
+NOTE: Do not reduce specified voltage ratings for C2, C3, C4
+
+C5	22pF 50V 0603 SMD ceramic
+C6	100nF 50V 0603 SMD ceramic
+C7	100nF 50V 0603 SMD ceramic
+C8	1uF 50V 0603 SMD ceramic
+C9	33pF 50V 0603 SMD ceramic
+C10	33pF 50V 0603 SMD ceramic
+C11	33pF 50V 0603 SMD ceramic
+C12	10pF 50V 0603 SMD ceramic
+C13	33pF 50V 0603 SMD ceramic
+C14	33pF 50V 0603 SMD ceramic
+

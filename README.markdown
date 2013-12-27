@@ -1,3 +1,3 @@
-GSMshield 
+GSMGPSShield 
 
- ![](https://github.com/freetronics/GSMshield/raw/master/GSMshield-top.png)
+ ![](https://github.com/freetronics/GSMGPSShield/raw/master/GSMGPSShield-preview.png)
