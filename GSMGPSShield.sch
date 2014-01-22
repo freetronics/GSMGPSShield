@@ -6658,14 +6658,14 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 </class>
 </classes>
 <parts>
-<part name="R6" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22kΩ 1%">
+<part name="R6" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="22K 1%">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="IC1" library="freetronics-luke" deviceset="RT8289" device="">
 <attribute name="PACKAGE" value="8-SOIC-T"/>
 </part>
 <part name="U$102" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="R3" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="51kΩ 1%">
+<part name="R3" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="51K 1%">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$104" library="freetronics-luke" deviceset="GND" device=""/>
@@ -6736,7 +6736,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="+4.1V" device="" value="+4.0V"/>
 <part name="SUPPLY4" library="supply2" deviceset="+4.1V" device="" value="+4.0V"/>
-<part name="R4" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1kΩ">
+<part name="R4" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1K">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="LED1" library="freetronics-master-v1" deviceset="LED" device="0603" value="Power">
@@ -6842,14 +6842,14 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <part name="S1" library="freetronics-jon" deviceset="AUDIO-JACK-4POLE" device="" value="4UCON-18899">
 <attribute name="FOO" value="Speaker/Mic"/>
 </part>
-<part name="R10" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0Ω">
+<part name="R10" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R11" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0Ω">
+<part name="R11" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$9" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="R15" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="68Ω">
+<part name="R15" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="68R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="C14" library="freetronics-master-v1" deviceset="CAP" device="0603" value="33pF">
@@ -6864,13 +6864,13 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <part name="C10" library="freetronics-master-v1" deviceset="CAP" device="0603" value="33pF">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R14" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10Ω">
+<part name="R14" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="C9" library="freetronics-master-v1" deviceset="CAP" device="0603" value="33pF">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="C8" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1µF">
+<part name="C8" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1uF">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$11" library="freetronics-luke" deviceset="GND" device=""/>
