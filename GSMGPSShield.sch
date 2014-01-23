@@ -3214,6 +3214,38 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="1.5" y1="3.5" x2="5" y2="3.5" width="0.4064" layer="21"/>
 <wire x1="-3.5" y1="3.5" x2="-2" y2="3.5" width="0.4064" layer="21"/>
 </package>
+<package name="SOT32-3">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.625" x2="-1" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="-1" y1="0.625" x2="-1" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.625" x2="1" y2="0.625" width="0.2032" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="0.8" dx="0.6" dy="0.8" layer="1"/>
+<smd name="2" x="0.65" y="-0.8" dx="0.6" dy="0.8" layer="1"/>
+<smd name="1" x="-0.65" y="-0.8" dx="0.6" dy="0.8" layer="1"/>
+<text x="-0.8255" y="1.4" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-0.1905" size="0.3048" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="0.508" x2="0.254" y2="1.016" layer="51"/>
+<rectangle x1="0.381" y1="-1.016" x2="0.889" y2="-0.508" layer="51"/>
+<rectangle x1="-0.889" y1="-1.016" x2="-0.381" y2="-0.508" layer="51"/>
+</package>
+<package name="TO92">
+<description>TO92 package with offset center pin</description>
+<wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
+<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.2032" layer="21" curve="-111.09954" cap="flat"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.4224"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.4224"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.4224"/>
+<text x="3.175" y="0.635" size="0.4064" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -3247,6 +3279,47 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <rectangle x1="-8.382" y1="-2.54" x2="-6.858" y2="5.08" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="MOSFET-NCHANNEL">
+<wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="0" x2="-0.762" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-0.762" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="0.254" x2="-1.778" y2="0" width="0.3048" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-0.889" y2="-0.254" width="0.3048" layer="94"/>
+<wire x1="-0.889" y1="-0.254" x2="-0.889" y2="0" width="0.3048" layer="94"/>
+<wire x1="-0.889" y1="0" x2="-1.143" y2="0" width="0.3048" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="1.905" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-0.635" x2="3.175" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-0.635" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.762" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="3.175" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0.762" x2="3.429" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.762" x2="1.651" y2="0.508" width="0.1524" layer="94"/>
+<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="2.54" size="0.8128" layer="93">D</text>
+<text x="-1.27" y="-3.556" size="0.8128" layer="93">S</text>
+<text x="-5.08" y="-1.27" size="0.8128" layer="93">G</text>
+<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="-1.27" layer="94"/>
+<rectangle x1="-2.794" y1="1.27" x2="-2.032" y2="2.54" layer="94"/>
+<rectangle x1="-2.794" y1="-0.889" x2="-2.032" y2="0.889" layer="94"/>
+<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CDRH6D38">
@@ -3278,6 +3351,34 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="2B" pad="2B"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET-N">
+<description>Basic N-Channel MOSFET</description>
+<gates>
+<gate name="G$1" symbol="MOSFET-NCHANNEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TO-92" package="TO92">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT-323" package="SOT32-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6744,7 +6845,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$1" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="Q7" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002">
+<part name="Q7" library="freetronics-jon" deviceset="MOSFET-N" device="SOT-323" value="RJU003N03 N-MOSFET">
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
 <part name="R24" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
@@ -6754,7 +6855,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$5" library="freetronics-luke" deviceset="+5V" device=""/>
-<part name="Q4" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002">
+<part name="Q4" library="freetronics-jon" deviceset="MOSFET-N" device="SOT-323" value="RJU003N03 N-MOSFET">
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
 <part name="R19" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
@@ -6796,7 +6897,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$3" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="Q3" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002">
+<part name="Q3" library="freetronics-jon" deviceset="MOSFET-N" device="SOT-323" value="RJU003N03 N-MOSFET">
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
 <part name="R17" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
@@ -6806,7 +6907,7 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$4" library="freetronics-luke" deviceset="+5V" device=""/>
-<part name="Q2" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002">
+<part name="Q2" library="freetronics-jon" deviceset="MOSFET-N" device="SOT-323" value="RJU003N03 N-MOSFET">
 <attribute name="PACKAGE" value="SOT-23"/>
 </part>
 <part name="R13" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10K">
@@ -8089,21 +8190,21 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="76.2" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="182.88" y1="78.74" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="78.74" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
-<label x="182.626" y="81.28" size="1.27" layer="95" rot="R90"/>
-<junction x="182.88" y="78.74"/>
+<wire x1="185.42" y1="78.74" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="78.74" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="78.74" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
+<label x="185.166" y="81.28" size="1.27" layer="95" rot="R90"/>
+<junction x="185.42" y="78.74"/>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="43.18" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="Q7" gate="G$1" pin="G"/>
-<wire x1="182.88" y1="45.72" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="45.72" x2="182.88" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="45.72" x2="182.88" y2="55.88" width="0.1524" layer="91"/>
-<label x="182.626" y="48.26" size="1.27" layer="95" rot="R90"/>
-<junction x="182.88" y="45.72"/>
+<wire x1="185.42" y1="45.72" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="45.72" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="185.166" y="48.26" size="1.27" layer="95" rot="R90"/>
+<junction x="185.42" y="45.72"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDD_EXT"/>
@@ -8114,21 +8215,21 @@ grid 2.5 mm, outline 2.4 x 4.4 mm</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="142.24" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="182.88" y1="144.78" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="144.78" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
-<label x="182.626" y="147.32" size="1.27" layer="95" rot="R90"/>
-<junction x="182.88" y="144.78"/>
+<wire x1="185.42" y1="144.78" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="144.78" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
+<label x="185.166" y="147.32" size="1.27" layer="95" rot="R90"/>
+<junction x="185.42" y="144.78"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="109.22" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="182.88" y1="111.76" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="111.76" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
-<label x="182.626" y="114.3" size="1.27" layer="95" rot="R90"/>
-<junction x="182.88" y="111.76"/>
+<wire x1="185.42" y1="111.76" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="111.76" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
+<label x="185.166" y="114.3" size="1.27" layer="95" rot="R90"/>
+<junction x="185.42" y="111.76"/>
 </segment>
 </net>
 <net name="N$7" class="0">
